@@ -123,6 +123,15 @@ IfWinActive, ahk_id 0x20262
 return
 
 
+
+;Panic Button
+F10::
+ComObjCreate("SAPI.SpVoice").Speak("Exit")
+Exitapp
+Return
+
+
+
 ; CREATED BY EZYDARK
 ; Discord: https://discord.gg/GaeANq3
 ; Donate: https://paypal.me/EzYDark
