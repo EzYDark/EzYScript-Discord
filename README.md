@@ -14,7 +14,7 @@
 3. Open Discord!
 
 ### Notice
-- Discord isn't be in system tray
+- Discord must not be in system tray
 - Discord can be minimized
 
 ### Controls
