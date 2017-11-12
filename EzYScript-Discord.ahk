@@ -11,19 +11,19 @@ SetTitleMatchMode, 2
 
 ; !Play
 +!^F4::
-IfWinNotActive, ahk_id 0x20262
+IfWinNotActive, ahk_exe Discord.exe
 {
-	Winactivate, ahk_id 0x20262
+	Winactivate, ahk_exe Discord.exe
 	MouseClick, left, 1203, 1004
 	SendRaw, !play
 	Send, {Enter}
 	Sleep 1
-	WinMinimize, ahk_id 0x20262
+	WinMinimize, ahk_exe Discord.exe
 }
 else
 {
-IfWinActive, ahk_id 0x20262
-	Winactivate, ahk_id 0x20262
+IfWinActive, ahk_exe Discord.exe
+	Winactivate, ahk_exe Discord.exe
 	MouseClick, left, 1203, 1004
 	SendRaw, !play
 	Send, {Enter}
@@ -34,19 +34,19 @@ return
 
 ; !Stop
 +!^F5::
-IfWinNotActive, ahk_id 0x20262
+IfWinNotActive, ahk_exe Discord.exe
 {
-	Winactivate, ahk_id 0x20262
+	Winactivate, ahk_exe Discord.exe
 	MouseClick, left, 1203, 1004
 	SendRaw, !stop
 	Send, {Enter}
 	Sleep 1
-	WinMinimize, ahk_id 0x20262
+	WinMinimize, ahk_exe Discord.exe
 }
 else
 {
-IfWinActive, ahk_id 0x20262
-	Winactivate, ahk_id 0x20262
+IfWinActive, ahk_exe Discord.exe
+	Winactivate, ahk_exe Discord.exe
 	MouseClick, left, 1203, 1004
 	SendRaw, !stop
 	Send, {Enter}
@@ -57,19 +57,19 @@ return
 
 ; !Skip
 +!^F6::
-IfWinNotActive, ahk_id 0x20262
+IfWinNotActive, ahk_exe Discord.exe
 {
-	Winactivate, ahk_id 0x20262
+	Winactivate, ahk_exe Discord.exe
 	MouseClick, left, 1203, 1004
 	SendRaw, !skip
 	Send, {Enter}
 	Sleep 1
-	WinMinimize, ahk_id 0x20262
+	WinMinimize, ahk_exe Discord.exe
 }
 else
 {
-IfWinActive, ahk_id 0x20262
-	Winactivate, ahk_id 0x20262
+IfWinActive, ahk_exe Discord.exe
+	Winactivate, ahk_exe Discord.exe
 	MouseClick, left, 1203, 1004
 	SendRaw, !skip
 	Send, {Enter}
@@ -80,19 +80,19 @@ return
 
 ; !Shuffle
 +!^F7::
-IfWinNotActive, ahk_id 0x20262
+IfWinNotActive, ahk_exe Discord.exe
 {
-	Winactivate, ahk_id 0x20262
+	Winactivate, ahk_exe Discord.exe
 	MouseClick, left, 1203, 1004
 	SendRaw, !shuffle
 	Send, {Enter}
 	Sleep 1
-	WinMinimize, ahk_id 0x20262
+	WinMinimize, ahk_exe Discord.exe
 }
 else
 {
-IfWinActive, ahk_id 0x20262
-	Winactivate, ahk_id 0x20262
+IfWinActive, ahk_exe Discord.exe
+	Winactivate, ahk_exe Discord.exe
 	MouseClick, left, 1203, 1004
 	SendRaw, !shuffle
 	Send, {Enter}
@@ -103,19 +103,19 @@ return
 
 ; !Play (Mike's Playlist)
 +!^F8::
-IfWinNotActive, ahk_id 0x20262
+IfWinNotActive, ahk_exe Discord.exe
 {
-	Winactivate, ahk_id 0x20262
+	Winactivate, ahk_exe Discord.exe
 	MouseClick, left, 1203, 1004
 	SendRaw, !play https://www.youtube.com/playlist?list=LLEZcyOiSMFNZ-6FOANG_HtA
 	Send, {Enter}
 	Sleep 1
-	WinMinimize, ahk_id 0x20262
+	WinMinimize, ahk_exe Discord.exe
 }
 else
 {
-IfWinActive, ahk_id 0x20262
-	Winactivate, ahk_id 0x20262
+IfWinActive, ahk_exe Discord.exe
+	Winactivate, ahk_exe Discord.exe
 	MouseClick, left, 1203, 1004
 	SendRaw, !play https://www.youtube.com/playlist?list=LLEZcyOiSMFNZ-6FOANG_HtA
 	Send, {Enter}
